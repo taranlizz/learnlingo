@@ -1,7 +1,19 @@
 import { createGlobalStyle } from 'styled-components';
+import 'modern-normalize';
 
-const GlobalStyles = createGlobalStyle`
-     body {
+const GlobalStyle = createGlobalStyle`
+
+:root{
+    --primaryWhite: #FFFFFF;
+    --primaryBlack: #121417;
+    --primaryGrey: #F8F8F8;
+    --primaryYellow: #F4C550;
+    --secondaryGrey: #8A8A89;
+    --secondaryYellow: #FBE9BA;
+    --secondaryGreen: #38CD3E;
+}
+
+body {
     color: #121417;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -31,4 +43,4 @@ ul {
   }
 `;
 
-export default GlobalStyles;
+export default GlobalStyle;
