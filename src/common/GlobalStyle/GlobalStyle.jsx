@@ -11,6 +11,8 @@ const GlobalStyle = createGlobalStyle`
     --secondaryGrey: #8A8A89;
     --secondaryYellow: #FBE9BA;
     --secondaryGreen: #38CD3E;
+
+    --animationCubicBezier: cubic-bezier(0.7, 0.98, 0.86, 0.98);
 }
 
 body {

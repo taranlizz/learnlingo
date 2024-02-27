@@ -1,15 +1,6 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import { Icon } from '../Icon';
-
-const IconBtnStyled = styled.button`
-  background-color: transparent;
-  border-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-`;
+import { IconBtnStyled } from './IconButton.styled';
 
 const IconButton = ({ type, size, onClick }) => {
   return (
