@@ -10,7 +10,7 @@ const Header = () => {
     <HeaderStyled>
       <Logo type="ukraine" size="28" />
       {isOpen ? (
-        <Menu isOpen={isOpen} setIsOpen={setIsOpen} />
+        <Menu setIsOpen={setIsOpen} />
       ) : (
         <IconButton type="menu" size="24" onClick={setIsOpen} />
       )}

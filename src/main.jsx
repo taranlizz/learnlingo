@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <GlobalStyle />
-    <BrowserRouter>
+    <BrowserRouter basename="/learnlingo/">
       <App />
     </BrowserRouter>
   </React.StrictMode>

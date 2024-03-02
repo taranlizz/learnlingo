@@ -4,7 +4,7 @@ import { IconBtnStyled } from './IconButton.styled';
 
 const IconButton = ({ type, size, onClick }) => {
   return (
-    <IconBtnStyled onClick={onClick}>
+    <IconBtnStyled type={type} onClick={onClick}>
       <Icon type={type} size={size} />
     </IconBtnStyled>
   );
